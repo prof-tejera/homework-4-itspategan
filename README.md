@@ -38,3 +38,5 @@ For other ways to deploy see https://github.com/prof-tejera/react-deployment-cod
 `npm i && npm start`
 
 Open [http://localhost:3000](http://localhost:3000)
+
+Can't deploy for some reason...
