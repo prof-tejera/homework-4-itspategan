@@ -1,8 +1,14 @@
 import { Component } from "react";
+import styled from "styled-components";
 
 import Number from "./Number";
 import Operator from "./Operator";
 import Screen from "./Screen";
+
+const Container = styled.div`
+  width: max-content;
+  margin: auto;
+`;
 
 class Calculator extends Component {
   state = {
@@ -46,27 +52,23 @@ class Calculator extends Component {
     return (
       <>
         <Screen value={this.getScreenValue()} />
-        <div style={{ display: "flex" }}>
-          <div>
-            <Number value={0} onClick={this.handleNumberClick} />
-            <Number value={1} onClick={this.handleNumberClick} />
-            <Number value={2} onClick={this.handleNumberClick} />
-            <Number value={3} onClick={this.handleNumberClick} />
-            <Number value={4} onClick={this.handleNumberClick} />
-            <Number value={5} onClick={this.handleNumberClick} />
-            <Number value={6} onClick={this.handleNumberClick} />
-            <Number value={7} onClick={this.handleNumberClick} />
-            <Number value={8} onClick={this.handleNumberClick} />
-            <Number value={9} onClick={this.handleNumberClick} />
-          </div>
-          <div style={{ paddingLeft: 10 }}>
-            <Operator value="+" onClick={this.handleOperatorClick} />
-            <Operator value="/" onClick={this.handleOperatorClick} />
-            <Operator value="x" onClick={this.handleOperatorClick} />
-            <Operator value="-" onClick={this.handleOperatorClick} />
-            <Operator value="=" onClick={this.handleOperatorClick} />
-            <Operator value="clear" onClick={this.handleOperatorClick} />
-          </div>
+        <div style={{ maxWidth: "400px", display: "flex", flexWrap: "wrap" }}>
+          <Number value={7} onClick={this.handleNumberClick} />
+          <Number value={8} onClick={this.handleNumberClick} />
+          <Number value={9} onClick={this.handleNumberClick} />
+          <Operator value="+" onClick={this.handleOperatorClick} />
+          <Number value={4} onClick={this.handleNumberClick} />
+          <Number value={5} onClick={this.handleNumberClick} />
+          <Number value={6} onClick={this.handleNumberClick} />
+          <Operator value="-" onClick={this.handleOperatorClick} />
+          <Number value={1} onClick={this.handleNumberClick} />
+          <Number value={2} onClick={this.handleNumberClick} />
+          <Number value={3} onClick={this.handleNumberClick} />
+          <Operator value="x" onClick={this.handleOperatorClick} />
+          <Operator value="clear" onClick={this.handleOperatorClick} />
+          <Number value={0} onClick={this.handleNumberClick} />
+          <Operator value="=" onClick={this.handleOperatorClick} />
+          <Operator value="/" onClick={this.handleOperatorClick} />
         </div>
       </>
     );
