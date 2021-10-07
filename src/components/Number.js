@@ -1,11 +1,7 @@
 import { Component } from "react";
 import styled from "styled-components";
+import PropTypes from "prop-types";
 
-// const Container = styled.div`
-//   padding: 10px;
-//   border: 1px solid black;
-//   width: 60px;
-// `;
 const Container = styled.button`
   color: #f1faee;
   flex: 1 25%;
@@ -26,6 +22,9 @@ const Container = styled.button`
 `;
 
 class Number extends Component {
+  static propTypes = {
+    value: PropTypes.number,
+  };
   render() {
     return (
       <Container onClick={() => this.props.onClick(this.props.value)}>

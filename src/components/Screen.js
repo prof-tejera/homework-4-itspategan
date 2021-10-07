@@ -1,5 +1,6 @@
 import { Component } from "react";
 import styled from "styled-components";
+import PropTypes from "prop-types";
 
 const Container = styled.div`
   width: 100%;
@@ -13,6 +14,9 @@ const Container = styled.div`
 `;
 
 class Screen extends Component {
+  static propTypes = {
+    value: PropTypes.string,
+  };
   render() {
     return <Container>{this.props.value}</Container>;
   }

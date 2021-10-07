@@ -1,5 +1,6 @@
 import { Component } from "react";
 import styled from "styled-components";
+import PropTypes from "prop-types";
 
 const Container = styled.button`
   color: #f1faee;
@@ -22,6 +23,9 @@ const Container = styled.button`
 `;
 
 class Operator extends Component {
+  static propTypes = {
+    value: PropTypes.string,
+  };
   render() {
     return (
       <Container onClick={() => this.props.onClick(this.props.value)}>

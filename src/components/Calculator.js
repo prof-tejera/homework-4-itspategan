@@ -1,14 +1,8 @@
 import { Component } from "react";
-import styled from "styled-components";
 
 import Number from "./Number";
 import Operator from "./Operator";
 import Screen from "./Screen";
-
-const Container = styled.div`
-  width: max-content;
-  margin: auto;
-`;
 
 class Calculator extends Component {
   state = {
