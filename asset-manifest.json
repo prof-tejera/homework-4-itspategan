@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.0f939402.chunk.css",
-    "main.js": "/static/js/main.b15a1ea1.chunk.js",
-    "main.js.map": "/static/js/main.b15a1ea1.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.54c00196.js",
-    "runtime-main.js.map": "/static/js/runtime-main.54c00196.js.map",
-    "static/js/2.65fd717d.chunk.js": "/static/js/2.65fd717d.chunk.js",
-    "static/js/2.65fd717d.chunk.js.map": "/static/js/2.65fd717d.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.0f939402.chunk.css.map": "/static/css/main.0f939402.chunk.css.map",
-    "static/js/2.65fd717d.chunk.js.LICENSE.txt": "/static/js/2.65fd717d.chunk.js.LICENSE.txt"
+    "main.css": "/homework-4-itspategan/static/css/main.0f939402.chunk.css",
+    "main.js": "/homework-4-itspategan/static/js/main.b15a1ea1.chunk.js",
+    "main.js.map": "/homework-4-itspategan/static/js/main.b15a1ea1.chunk.js.map",
+    "runtime-main.js": "/homework-4-itspategan/static/js/runtime-main.d0980f94.js",
+    "runtime-main.js.map": "/homework-4-itspategan/static/js/runtime-main.d0980f94.js.map",
+    "static/js/2.7d41bf6b.chunk.js": "/homework-4-itspategan/static/js/2.7d41bf6b.chunk.js",
+    "static/js/2.7d41bf6b.chunk.js.map": "/homework-4-itspategan/static/js/2.7d41bf6b.chunk.js.map",
+    "index.html": "/homework-4-itspategan/index.html",
+    "static/css/main.0f939402.chunk.css.map": "/homework-4-itspategan/static/css/main.0f939402.chunk.css.map",
+    "static/js/2.7d41bf6b.chunk.js.LICENSE.txt": "/homework-4-itspategan/static/js/2.7d41bf6b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.54c00196.js",
-    "static/js/2.65fd717d.chunk.js",
+    "static/js/runtime-main.d0980f94.js",
+    "static/js/2.7d41bf6b.chunk.js",
     "static/css/main.0f939402.chunk.css",
     "static/js/main.b15a1ea1.chunk.js"
   ]
